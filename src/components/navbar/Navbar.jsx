@@ -83,7 +83,7 @@ const Navbar = () => {
 
         {showModal && (
           <>
-            <div className="fixed top-0 right-0 w-[70%] h-full bg-primary-AffilestateBlue110   flex justify-center items-center z-50">
+            <div className="overflow-x-hidden fixed top-0 right-0 w-[70%] h-full bg-primary-AffilestateBlue110   flex justify-center items-center z-50">
               <div className="text-center">
                 <ul className="fixed top-[5rem] left-[12rem] gap-[50px] flex flex-col">
                   <li>
