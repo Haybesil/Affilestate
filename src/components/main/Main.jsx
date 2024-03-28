@@ -57,7 +57,7 @@ const Main = () => {
 
   return (
     <div className="grid-container mt-[20vh] mx-[8vw]" data-aos="fade-up" data-aos-duration="3000">
-      <h1 className="text-[40px] text-primary-AffilestateBlue60 font-[600] text-center mb-8">Our Services</h1>
+      <h1 className="text-[40px] text-primary-AffilestateBlue60 font-[600] mb-8">Our Services</h1>
       <div className="grid md:grid-cols-3  gap-[30px]">
         {Services.map((service, index) => (
           <div className="grid-item flex flex-col gap-[20px]" key={index}>
