@@ -9,7 +9,7 @@ import Propertyhead from '../../propertyhead/Propertyhead'
 
 const Property = () => {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Navbar/> 
        <Propertyhead/>
        <Propertyhero/>
