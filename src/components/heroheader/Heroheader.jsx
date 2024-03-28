@@ -56,7 +56,7 @@ const Heroheader = () => {
             buy, sell, or invest, we've got you covered!
           </p>
 
-          <Link to ='/property' className="bg-primary-AffilestateBlue60 text-[15px] w-[45%] py-[10px] pl-[3vw] text-white hover:cursor-[pointer]">
+          <Link to ='/property' className="bg-primary-AffilestateBlue60 text-[15px] md:w-[45%] w-[55%] py-[10px] pl-[3vw] text-white hover:cursor-[pointer]">
             Find Property <FaArrowRight size={20} className="inline pl-[5px]" />
           </Link>
 
