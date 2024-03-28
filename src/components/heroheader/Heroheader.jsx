@@ -1,4 +1,5 @@
 import { React, useEffect } from 'react';
+import {Link} from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa6';
 import { GoDotFill } from 'react-icons/go';
 import Image1 from '../../assets/images/heroheader/image1.png';
@@ -55,9 +56,9 @@ const Heroheader = () => {
             buy, sell, or invest, we've got you covered!
           </p>
 
-          <p className="bg-primary-AffilestateBlue60 text-[15px] w-[45%] py-[10px] pl-[3vw] text-white hover:cursor-[pointer]">
+          <Link to ='/property' className="bg-primary-AffilestateBlue60 text-[15px] w-[45%] py-[10px] pl-[3vw] text-white hover:cursor-[pointer]">
             Find Property <FaArrowRight size={20} className="inline pl-[5px]" />
-          </p>
+          </Link>
 
           <div className="flex gap-[20px]">
             <p className="text-[28px] text-center font-[700]">
