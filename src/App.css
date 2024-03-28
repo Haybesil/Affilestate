@@ -48,3 +48,7 @@
     height: 80vh;
 }
    */
+
+   * {
+    overflow-x: hidden;
+   }
