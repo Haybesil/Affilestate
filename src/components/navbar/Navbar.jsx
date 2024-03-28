@@ -77,7 +77,7 @@ const Navbar = () => {
 
         <RxHamburgerMenu
           size={50}
-          className="block md:hidden text-primary-AffilestateBlue60"
+          className="block md:hidden text-primary-AffilestateBlue60 hover:cursor-[pointer]"
           onClick={toggle}
         />
 
