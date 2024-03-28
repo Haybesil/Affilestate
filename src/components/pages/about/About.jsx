@@ -9,7 +9,7 @@ import Aboutteam from '../../aboutteam/Aboutteam';
 const About = () => {
   return (
     <Fragment>
-      <div>
+      <div className='overflow-x-hidden'>
         <Navbar />
         <Abouthero/>
         <Aboutmainhero/>

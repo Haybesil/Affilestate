@@ -8,7 +8,7 @@ import Detailscomp from '../../detailscomp/Detailscomp';
 
 const Details = () => {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Navbar />
       <div className="mt-[10vh]">
         <img src={Image1} alt="" />

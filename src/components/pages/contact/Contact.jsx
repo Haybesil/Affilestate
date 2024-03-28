@@ -13,7 +13,7 @@ const Contact = () => {
 
   const Address = (prop) => {
     return (
-      <div className="flex gap-[15px] mt-[20px]">
+      <div className="flex gap-[15px] mt-[20px] overflow-x-hidden">
         <div>
           <h1 className="md:text-[22px] text-[20px] font-[500] text-primary-AffilestateBlue60">
             {prop.title}
