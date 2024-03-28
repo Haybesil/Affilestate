@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .lists {
+        @apply text-[20px] font-[200] text-primary-Black20 md:text-left text-center;
+    };
+
+    .white {
+        @apply text-primary-Black20 hover:cursor-pointer;
+    }
+
+    .border {
+        @apply text-primary-AffilestateBlue60 py-[10px] px-[10px] border-primary-AffilestateBlue60;
+    }
+
+    .modal {
+        @apply text-[20px] font-[500] text-white hover:text-primary-AffilestateBlue40 hover:border-b-2 border-white;
+    }
+}

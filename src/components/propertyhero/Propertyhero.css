@@ -1,0 +1,50 @@
+/* Mainbody.css */
+
+.mainbody-container {
+    margin-top: 10vh;
+  }
+  
+  .slider-container {
+    overflow-x: auto;
+    scrollbar-width: none; /* Hides scrollbar for modern browsers */
+    -ms-overflow-style: none; /* Hides scrollbar for IE/Edge */
+  }
+  
+  .slider {
+    display: flex;
+    display: flex; 
+    gap: 2vw;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .slider::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .property-item {
+    flex: 0 0 auto;
+    width: 350px;
+    margin-right: 50px; /* Adjust spacing between items */
+  }
+  
+  .nav-btn {
+    position: relative;
+    top: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev-btn {
+    left: 45%;
+  }
+  
+  .next-btn {
+    left: 45%;
+  }
+  
+  

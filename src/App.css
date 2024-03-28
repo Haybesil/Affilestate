@@ -1,0 +1,50 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+.slider-container {
+    margin-top: 7vh;
+}
+
+.slider {
+    display: flex; 
+    gap: 2vw;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin-inline: 10vw;
+    
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+  }
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 2px solid #878a8f;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.cards:hover {
+    border: 2px solid blue;
+}
+
+
+.flexy {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.background {
+    background-image: url(./assets/images/bodysection/background.png);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+   */
