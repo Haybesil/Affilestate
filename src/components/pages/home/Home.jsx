@@ -8,7 +8,7 @@ import Mainfooter from '../../mainfooter/Mainfooter';
 
 const Home = () => {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Navbar />
       <Heroheader />
       <Main />
