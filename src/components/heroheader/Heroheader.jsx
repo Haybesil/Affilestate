@@ -38,13 +38,13 @@ const Heroheader = () => {
             YOUR ALL-IN-ONE STOP
           </p>
           <div className="flex gap-[10px]">
-            <p className="text-[54px]">
+            <p className="md:text-[54px] text-[45px]">
               Buy<span className="text-primary-AffilestateBlue60">.</span>
             </p>
-            <p className="text-[54px]">
+            <p className="md:text-[54px] text-[45px]">
               Sell<span className="text-primary-AffilestateBlue60">.</span>
             </p>
-            <p className="text-[54px]">
+            <p className="md:text-[54px] text-[45px]">
               Rent<span className="text-primary-AffilestateBlue60">.</span>
             </p>
           </div>
