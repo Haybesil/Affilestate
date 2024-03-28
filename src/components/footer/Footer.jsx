@@ -20,7 +20,7 @@ useEffect(() => {
 
       <div className='flex justify-center'>
         <input type="text" className='border border-primary-Black20 border-solid w-[35%] px-[40px] py-[10px]' placeholder="Input email address" />
-        <input className='text-white text-[20px] font-[100] px-[10px] bg-primary-AffilestateBlue60 border border-primary-AffilestateBlue60' type="button" value="Subscribe" />
+        <input className='text-white md:text-[20px] text-[10px] font-[100] px-[10px] bg-primary-AffilestateBlue60 border border-primary-AffilestateBlue60' type="button" value="Subscribe" />
       </div>
     </div>
   );
