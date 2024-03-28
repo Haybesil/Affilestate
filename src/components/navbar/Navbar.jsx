@@ -112,7 +112,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/signin"
-                      className="text-[20px] text-white border border-white border-solid py-[10px] px-[33px] hover:bg-primary-AffilestateBlue60 hover:text-white"
+                      className="text-[20px] text-white py-[10px] px-[33px] hover:bg-primary-AffilestateBlue60 hover:text-white"
                     >
                       Sign In
                     </Link>
@@ -120,7 +120,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/signup"
-                      className="text-[20px] text-white border border-white border-solid py-[10px] px-[30px] hover:bg-primary-AffilestateBlue60 hover:text-white"
+                      className="text-[20px] text-white py-[10px] px-[30px] hover:bg-primary-AffilestateBlue60 hover:text-white"
                     >
                       Sign Up
                     </Link>
