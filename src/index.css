@@ -13,7 +13,7 @@
     }
 
     .border {
-        @apply text-primary-AffilestateBlue60 py-[10px] px-[10px] border-primary-AffilestateBlue60;
+        @apply text-primary-AffilestateBlue60 py-[5px] px-[10px] border-primary-AffilestateBlue60;
     }
 
     .modal {
