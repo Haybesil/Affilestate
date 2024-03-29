@@ -17,7 +17,7 @@ const Details = () => {
         <div className="flex flex-col gap-[15px]">
           <div className='flex gap-8 items-center'>
             <h1 className='text-[35px] font-[500]'>3 Bedroom Apartment</h1>
-            <p className='md:text-[15px] text-[10px] text-primary-AffilestateBlue60 font-[400] bg-primary-AffilestateBlue10 md:py-[5px] py-[15px] px-[10px] md:w-[8%] w-[25%]'>For Sale</p>
+            <p className='md:text-[15px] text-[10px] text-primary-AffilestateBlue60 font-[400] bg-primary-AffilestateBlue10 md:py-[5px] py-[15px] px-[10px] md:w-[8%] w-[30%]'>For Sale</p>
           </div>
           <div>
             <p className='text-[30px] font-[300] md:w-[55%]'>
