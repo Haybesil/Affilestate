@@ -10,7 +10,7 @@ const Details = () => {
   return (
     <div className='overflow-x-hidden'>
       <Navbar />
-      <div className="mt-[10vh]">
+      <div className="mt-[10rem]">
         <img src={Image1} alt="" />
       </div>
       <div className='flex mx-[8vw] mt-[5vh]'>
