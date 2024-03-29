@@ -32,7 +32,7 @@ const Details = () => {
             <FaLocationDot size={25} className='text-primary-AffilestateBlue60' />
             <p className='text-[23px] text-primary-AffilestateBlue60'>Lekki, Ajah</p>
           </div>
-          <div className='flex gap-10'>
+          <div className='flex md:flex-row flex-col gap-10'>
             <p className='border'>I found this useful</p>
             <p className='border'>This is within my budget</p>
             <p className='border'>This is beyond my budge</p>
