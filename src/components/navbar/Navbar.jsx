@@ -15,8 +15,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="mt-[20px]">
-      <nav className="flex justify-around items-center">
+    <div className="fixed top-0 w-full z-10 bg-white  pt-[20px]">
+      <nav className="sticky flex justify-around items-center">
         <h1 className="text-[40px] font-[500] text-primary-AffilestateBlue60">
           BLUES
         </h1>
@@ -59,7 +59,7 @@ const Navbar = () => {
         <ol className="hidden md:flex gap-[30px]">
           <li>
             <Link
-              to="/signin"
+              to='/signin'
               className="text-[18px] text-primary-AffilestateBlue60 border border-primary-AffilestateBlue60 border-solid py-[10px] px-[15px] hover:bg-primary-AffilestateBlue60 hover:text-white"
             >
               Sign In
@@ -67,7 +67,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/signup"
+              to='signup'
               className="text-[18px] text-primary-AffilestateBlue60 border border-primary-AffilestateBlue60 border-solid py-[10px] px-[15px] hover:bg-primary-AffilestateBlue60 hover:text-white"
             >
               Sign Up
