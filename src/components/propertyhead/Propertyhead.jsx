@@ -13,7 +13,7 @@ const Propertyhead = () => {
           />
           <IoMdSearch
             size={35}
-            className="text-primary-Black40 absolute md:left-[29rem] right-[5rem]   px-[5px]"
+            className="text-primary-Black40 absolute md:left-[29rem] right-[5rem]  px-[5px]"
           />
           <select
             name=""
