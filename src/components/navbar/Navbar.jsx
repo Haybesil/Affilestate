@@ -67,7 +67,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to='signup'
+              to='/signup'
               className="text-[18px] text-primary-AffilestateBlue60 border border-primary-AffilestateBlue60 border-solid py-[10px] px-[15px] hover:bg-primary-AffilestateBlue60 hover:text-white"
             >
               Sign Up
