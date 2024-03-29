@@ -41,7 +41,7 @@ const Contact = () => {
     <>
       <div>
         <Navbar />
-        <div className="flex flex-col md:flex-row gap-[40px] mx-[8vw] mt-[10vh]">
+        <div className="flex flex-col md:flex-row gap-[40px] mx-[8vw] mt-[8rem]">
   <div className="w-full md:w-1/2" data-aos="fade-up" data-aos-duration="3000">
     <div className="flex flex-col gap-5">
       <h1 className="text-[20px] text-primary-AffilestateBlue60">Contact Us</h1>

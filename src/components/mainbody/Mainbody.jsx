@@ -101,7 +101,7 @@ const Mainbody = () => {
           />
         </div>
       </div>
-      <p className='text-[20px] text-center font-[200] mx-auto bg-primary-AffilestateBlue60 p-[10px] mt-[8vh] md:w-[20%] w-[60%]  text-white hover:cursor-[pointer] items-center'>View all Properties <FaArrowRight size={20} className="inline pl-[5px] font-[200]"/></p>
+      <Link to='/property' className='text-[20px] text-center font-[200] mx-auto bg-primary-AffilestateBlue60 p-[10px] mt-[8vh] md:w-[20%] w-[60%]  text-white hover:cursor-[pointer] items-center'>View all Properties <FaArrowRight size={20} className="inline pl-[5px] font-[200]"/></Link>
 
     </>
   );

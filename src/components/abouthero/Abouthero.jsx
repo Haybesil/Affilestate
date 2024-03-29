@@ -1,4 +1,5 @@
 import React, {useEffect, Fragment } from 'react';
+import {Link} from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa6';
 import About1 from '../../assets/images/abouthero/About1.png';
 import AOS from 'aos';
@@ -13,9 +14,9 @@ const Abouthero = () => {
 
   return (
     <Fragment>
-      <div className='flex md:flex-row flex-col gap-[30px] mx-[8vw] mt-[15vh]'>
+      <div className='flex md:flex-row flex-col gap-[30px] px-[8vw] pt-[10rem]'>
         <div className='flex flex-col gap-[20px] justify-center md:w-[50%]'  data-aos="flip-up" data-aos-duration='2000'>
-          <p className='md:text-[16px] text-[20px] font-[600] text-primary-AffilestateBlue60 md:text-left text-center'>ABOUT US</p>
+          <p className='md:text-[16px] text-[25px] font-[700] text-primary-AffilestateBlue60 text-left'>ABOUT US</p>
           <h1 className='text-[38px] font-[700] w-[90%]'>We are the best among the rest</h1>
           <p className='text-[15px] font-[500] leading-[28px] text-primary-Black40'>
             We are your No.1 stop for impeccable deals such as lands, houses,
@@ -25,9 +26,9 @@ const Abouthero = () => {
             properties.
           </p>
 
-          <p className="bg-primary-AffilestateBlue60 text-[15px] w-[45%] py-[10px] pl-[3vw] text-white hover:cursor-[pointer]">
+          <Link to='/property' className="bg-primary-AffilestateBlue60 text-[15px] w-[45%] py-[10px] pl-[3vw] text-white hover:cursor-[pointer]">
             Find Property <FaArrowRight size={20} className="inline pl-[5px]" />
-          </p>
+          </Link>
         </div>
 
         <div  data-aos="zoom-out-up" data-aos-duration='2000'>

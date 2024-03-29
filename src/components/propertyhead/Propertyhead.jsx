@@ -12,8 +12,8 @@ const Propertyhead = () => {
             className="text-[20px] font-[200] border border-3 md:w-[35%] w-[80%] h-[45px] px-[5px]"
           />
           <IoMdSearch
-            size={25}
-            className="text-primary-Black40 relative md:right-[40px] left-[100px] bottom-[43px] px-[5px]"
+            size={35}
+            className="text-primary-Black40 absolute md:left-[29rem] right-[5rem]   px-[5px]"
           />
           <select
             name=""
@@ -57,7 +57,7 @@ const Propertyhead = () => {
   return (
   
 
-    <div className='mx-[10vw] mt-[8vh]'>
+    <div className='mx-[10vw] mt-[8rem]'>
       <Search />
     </div>
   );

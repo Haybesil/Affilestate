@@ -28,7 +28,7 @@ const Heroheader = () => {
 
   return (
     <>
-      <div className="flex flex-col md:flex-row mx-[8vw] my-[5vh] gap-[5px] md:gap-[2vw]">
+      <div className="flex flex-col md:flex-row mx-[8vw] mt-[5rem] my-[5vh] gap-[5px] md:gap-[2vw]">
         <div
           className="w-[89%] flex flex-col gap-[20px] my-[13vh]"
           data-aos="fade-right"
