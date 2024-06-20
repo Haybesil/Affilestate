@@ -41,7 +41,7 @@ const Mainfooter = () => {
           <div className="flex flex-col gap-[21vh]">
             <h1 className="md:text-[23px] text-[40px] text-primary-Black20 font-[700] md:text-left text-center">BLUES</h1>
             <div>
-              <div className="flex sm:justify-center gap-[20px] mx-[auto]">
+              <div className="flex sm:flex-row  justify-center gap-[20px] mx-[auto]">
                 <FaInstagram size={25} className="white" />
                 <LuFacebook size={25} className="white" />
                 <RiTwitterXLine size={25} className="white" />
