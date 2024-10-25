@@ -5,7 +5,7 @@ import { LuFacebook } from 'react-icons/lu';
 import { RiTwitterXLine } from 'react-icons/ri';
 import { FaLinkedin } from 'react-icons/fa';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // Import AOS CSS
+import 'aos/dist/aos.css'; 
 
 const Mainfooter = () => {
 
